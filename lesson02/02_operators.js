@@ -10,9 +10,9 @@
 var choice = 0;
 
 if (choice == 0) {
-  alert("zero");
+  console.log("zero");
 } else if (choice > 0) {
-  alert("greater than zero");
+  console.log("greater than zero");
 } else if (choice < 0) {
-  alert("less than zero");
+  console.log("less than zero");
 }
