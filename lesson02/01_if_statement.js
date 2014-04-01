@@ -1,7 +1,7 @@
 var choice = true;
 
 if (choice) {
-  alert("YES!");
+  console.log("YES!");
 } else {
-  alert("NO!");
+  console.log("NO!");
 }
