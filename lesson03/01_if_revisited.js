@@ -2,7 +2,6 @@
 *  1. Is golden gate bridge taller than bay bridge? (if and operators)
 *  2. How do you compare heights of any two bridges?  (prompt - accept user input)
 *  3. Equality case 
-*  4. 
 */
 
 console.log("Let us compare heights of two bridges!");
