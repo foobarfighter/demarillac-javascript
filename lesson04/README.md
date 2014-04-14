@@ -17,7 +17,7 @@ console.log(total);
 2. Represent a large number of instructions as one statement.
 3. Allow us to make complicated programs by calling functions inside of other functions.
 
- ```javascript
+```javascript
 function launchRocketShip(destination) {
   runPreflightChecks();
   setNavigationTo(destination);
@@ -30,5 +30,5 @@ function launchRocketShip(destination) {
 launchRocketShip('mars');
 ```
 
-# Open this editor and try the exercises yourself.
+# Try the exercises yourself
 Open a separate web browser to http://repl.it/languages/JavaScript
