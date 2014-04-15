@@ -34,4 +34,4 @@ launchRocketShip('mars');
 Open a separate web browser to http://repl.it/languages/JavaScript
 
 # Fun googly eye demo
-http://jsfiddle.net/NLxPR/5/
+http://jsfiddle.net/NLxPR/6/
