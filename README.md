@@ -12,3 +12,4 @@ This repository contains all of the code examples and course materials that have
 [Lesson 2]:https://github.com/foobarfighter/demarillac-javascript/tree/master/lesson02
 [Lesson 3]:https://github.com/foobarfighter/demarillac-javascript/tree/master/lesson03
 [Lesson 4]:https://github.com/foobarfighter/demarillac-javascript/tree/master/lesson04
+[Lesson 5]:https://github.com/foobarfighter/demarillac-javascript/tree/master/lesson05
