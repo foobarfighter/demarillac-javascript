@@ -1,5 +1,7 @@
 ## Guess the Number
 
+In this example, the computer chooses a random number, and you have to guess what number was chosen.
+
 ````javascript
 function randomNumberBetween(low, high)
 {
@@ -36,11 +38,14 @@ console.log('Congratulations! You guessed the number!');
 ````
 
 ### Challenges
-1. Change the low and high numbers that the computer chooses between.
-2. Change the code to let someone else choose the number.
-   **HINT:** The ````prompt("What's your name?")```` function can help.
-3. Change the code to tell the guesser whether they were too high or low.
-   **HINT:** You can use an if statement.
+
+#### Change the low and high numbers that the computer chooses between.
+
+#### Change the code to let someone else choose the number.
+   **Hint:** The ````prompt("What's your name?")```` function can help.
+
+#### Change the code to tell the guesser whether they were too high or low.
+   **Hint:** You can use an if statement.
 ````javascript
 if (/*something*/) {
   console.log('Your guess was too high!');

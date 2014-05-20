@@ -1,5 +1,7 @@
 ## Hangman
 
+This example lets you play a simple game of hangman. Keep guessing letters until you get the word!
+
 ````javascript
 var word = "blueberry";
 var knownLetters = [];
@@ -43,14 +45,20 @@ do {
 ````
 
 ### Challenges
-1. Change the code to ask the user for a word.
-   **HINT:** The ````prompt("What's your name?")```` function can help.
-2. Change the code to show an error if the word is too long (more than 10 letters)
-   **HINT:** You can use an if statement.
+
+#### Change the code to ask the user for a word.
+   **Hint:** The ````prompt("What's your name?")```` function can help.
+
+#### Change the code to show an error if the word is too long (more than 10 letters)
+   **Hint:** You can use an if statement.
 ````javascript
 if (/*something*/) {
   console.log('Your word is too long!);
 }
 ````
-3. Change the code to put a space between each character when printing, so it's easier to see what's happening.
-   **HINT:** You'll need to modify the pretty_print function, inside the loop.
+
+#### Change the code to put a space between each character when printing, so it's easier to see what's happening.
+   **Hint:** You'll need to modify the pretty_print function, inside the loop.
+
+#### Change the code to only give you a limited number of wrong guesses.
+   **Hint:** You'll need to keep track of the number of wrong guesses that have happened, and use an if statement to see if that number has been reached yet.
