@@ -3,15 +3,18 @@
 This example lets you play a simple game of hangman. Keep guessing letters until you get the word!
 
 ````javascript
+/* The secret word */
 var word = "blueberry";
-var knownLetters = [];
-var spaces = new Array(word.length);
 
+/* The list of letters that the user has already guessed. */
+var knownLetters = [];
+
+/* This function prints the secret word, letters that haven't yet been guessed are replaced with _ */
 function pretty_printed(word)
 {
     var pretty_word = '';
     for (var i = 0; i < word.length; i++) {
-        if (knownLetters.indexOf(word[i]) >= 0)
+        if (isKnown(word[i]))
             pretty_word += word[i];
         else
             pretty_word += '_';
@@ -20,6 +23,13 @@ function pretty_printed(word)
     return pretty_word;
 }
 
+/* This function returns true if `letter` has already been guessed by the user */
+function isKnown(letter)
+{
+    return knownLetters.indexOf(letter) >= 0;
+}
+
+/* This function returns true if `word` contains `letter` */
 function wordHasLetter(word, letter)
 {
     return word.indexOf(letter) >= 0;
@@ -29,17 +39,24 @@ var finished = false;
 do {
     console.log("enter a letter:");
     var letter = prompt();
+
+    /* Save the letter to the list of letters that have already been guessed. */
     knownLetters.push(letter);
     
+    /* Get the word printed with underscores for unguessed letters */
     var pretty_word = pretty_printed(word);
+
+    /* If no letters are unguessed, then the user is all done */
     if (pretty_word == word) {
         console.log('You got it!');
         finished = true;
     }
     else if (wordHasLetter(word, letter)) {
+        /* If the word has the guessed letter, then congratulate the user */
         console.log('Good guess!');
     }
     
+    /* Display the word so the user can see progress */
     console.log(pretty_word);    
 } while (!finished);
 ````
