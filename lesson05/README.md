@@ -8,10 +8,10 @@ An if statement lets us decide whether to do something or not.
 var apples = 3;
 var oranges = 7;
 if (apples > oranges) {
-  alert('You have more apples than oranges.');
+  console.log('You have more apples than oranges.');
 }
 else {
-  alert('You have more oranges than apples.');
+  console.log('You have more oranges than apples.');
 }
 ````
 
@@ -22,11 +22,11 @@ else {
 A for loop lets us repeat doing something a number of times
 
 ````javascript
-alert('Countdown...');
+console.log('Countdown...');
 for (var i = 10; i > 0; i++) {
-  alert(i + '...');
+  console.log(i + '...');
 }
-alert('Blast off!');
+console.log('Blast off!');
 ````
 
 ### While loop
