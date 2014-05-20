@@ -7,6 +7,7 @@ This repository contains all of the code examples and course materials that have
 * [Lesson 2] - Logic and Statements
 * [Lesson 3] - Loops
 * [Lesson 4] - Functions
+* [Lesson 5] - Simple Games
 
 [Lesson 1]:https://github.com/foobarfighter/demarillac-javascript/tree/master/lesson01
 [Lesson 2]:https://github.com/foobarfighter/demarillac-javascript/tree/master/lesson02

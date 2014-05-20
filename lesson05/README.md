@@ -34,9 +34,11 @@ alert('Blast off!');
 A while loop lets us repeat doing something until a condition becomes true
 
 ````javascript
-var password = prompt();
-if (password.length() < 6)
-
+var num = 16;
+while (num > 1) {
+  console.log(num);
+  num = num / 2;
+}
 ````
 
 ### Do while loop
@@ -47,12 +49,12 @@ A do while loop is like a while loop, but the condition is checked at the end in
 var done = false;
 do {
   var password = prompt();
-  if (password.length() < 6) {
+  if (password.length < 6) {
     console.log('Your password is too short!');
   }
   else {
     done = true;
-} while (password.length() < 6);
+} while (password.length < 6);
 console.log('Nice password');
 ````
 
@@ -67,11 +69,11 @@ function sum(num1, num2) {
 }
 ````
 
-# Challenges
+# Simple games
 
-We have a couple of challenge examples that use all of the different parts of JavaScript that we've seen so far. You can copy the code we've provided, and then try all the different challenges.
+We have a couple of simple game examples that use all of the different parts of JavaScript that we've seen so far. You can copy the code we've provided, and then try all the challenges.
 
-[Guess the Number](/GuessTheNumber.md)
+[Guess the Number](GuessTheNumber.md)
 
-[Hangman](/Hangman.md)
+[Hangman](Hangman.md)
 
